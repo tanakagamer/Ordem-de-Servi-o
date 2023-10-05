@@ -1,0 +1,217 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Oficina.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #202024;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    opacity: 1.0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo branco com opacidade */
+}
+
+.business-presentation {
+  padding: 40px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  opacity: 1.5;
+}
+
+.business-presentation h2 {
+  font-size: 24px; /* Tamanho do título */
+  color: #333; /* Cor do título */
+  margin-bottom: 20px; /* Espaçamento inferior do título */
+}
+
+.business-presentation p {
+  font-size: 18px; /* Tamanho do texto */
+  color: #333; /* Cor do texto */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  font-weight: 700;
+}
+
+/* Estilos gerais para o footer */
+footer {
+  background-color: #333; /* Cor de fundo escura */
+  color: #fff; /* Cor do texto */
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+/* Estilos para o footer */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Estilos para a seção de informações de contato */
+.contact-info {
+  flex: 1; /* Expande para preencher o espaço disponível */
+  padding: 10px;
+}
+
+.contact-info h3 {
+  font-size: 18px;
+}
+
+/* Estilos para os links rápidos */
+.quick-links {
+  flex: 1; /* Expande para preencher o espaço disponível */
+  padding: 10px;
+}
+
+.quick-links h3 {
+  font-size: 18px;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 5px;
+}
+
+.quick-links a {
+  color: #fff; /* Cor dos links */
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  text-decoration: underline; /* Sublinhar os links quando o mouse passa por cima */
+}
+
+/* Estilos para a seção de direitos autorais */
+.copyright {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #555; /* Linha superior para separar dos conteúdos acima */
+  font-size: 14px;
+}
+
+
+/* Estilos adicionais e ajustes conforme necessário */
+
+.btn-whatsapp {
+    z-index:9; 
+    position:fixed; 
+    right:15px; 
+    bottom:15px; 
+    transform:translate(-50%, -50%);
+    background:transparent;  
+    background-image:url('./btn-whatsapp.png');
+    background-position:center center;
+    background-repeat:no-repeat;
+    width:75px; 
+    height:75px;
+    cursor:pointer; 
+    border-radius:100%;
+}
+
+.btn-whatsapp:hover {
+    opacity:0.9;
+    transition:0.3s;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.delay {
+  -moz-animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}

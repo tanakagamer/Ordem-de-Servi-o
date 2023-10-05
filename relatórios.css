@@ -1,0 +1,110 @@
+/* Estilos gerais */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #202024;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos para a seção de resumo de dados */
+.data-summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.summary-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.summary-card h2 {
+    font-size: 18px;
+}
+
+/* Estilos para o gráfico (você pode usar uma biblioteca de gráficos como Chart.js) */
+.chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos adicionais e ajustes conforme necessário */
+
+/* Estilos gerais para o footer */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0;
+    font-size: 16px;
+  }
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  /* Estilos para a seção de informações de contato */
+  .contact-info {
+    flex: 1; /* Expande para preencher o espaço disponível */
+    padding: 10px;
+  }
+  
+  .contact-info h3 {
+    font-size: 18px;
+  }
+  
+  /* Estilos para os links rápidos */
+  .quick-links {
+    flex: 1; /* Expande para preencher o espaço disponível */
+    padding: 10px;
+  }
+  
+  .quick-links h3 {
+    font-size: 18px;
+  }
+  
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 5px;
+  }
+  
+  .quick-links a {
+    color: #fff; /* Cor dos links */
+    text-decoration: none;
+  }
+  
+  .quick-links a:hover {
+    text-decoration: underline; /* Sublinhar os links quando o mouse passa por cima */
+  }
+  
+  /* Estilos para a seção de direitos autorais */
+  .copyright {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #555; /* Linha superior para separar dos conteúdos acima */
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,54 @@
+/* Estilo para a tabela */
+
+h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+table {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para as células de cabeçalho */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para as células de dados */
+  td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para as linhas ímpares (opcional) */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para as células na coluna de ações (por exemplo, editar/excluir) */
+  td.actions {
+    text-align: center;
+  }
+  
+  /* Estilo para os links de ação (por exemplo, editar/excluir) */
+  a.action-link {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para os links de ação quando passam o mouse (opcional) */
+  a.action-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.order-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.order-list {
+    width: 60%;
+    margin: 20px auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #f5f5f5;
+}
+
+/* Estilize a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Estilize as células da tabela */
+table td, table th {
+    border: 1px solid #ddd; /* Adicione bordas para separar as células */
+    padding: 10px; /* Adicione preenchimento (espaço interno) para as células */
+}
+
+/* Estilize o cabeçalho da tabela */
+table th {
+    background-color: #f5f5f5;
+}
+
+/* Estilize as células quando o mouse passar por cima delas */
+table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #007BFF; /* Cor de destaque quando em foco */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Sombra de foco */
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de destaque quando o mouse passa por cima */
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="clientes.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+  />
+  <title>Lista de Clientes</title>
+</head>
+<body>
+  <h1>Lista de Clientes</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>E-mail</th>
+        <th>Telefone</th>
+        <th>Endereço</th>
+      </tr>
+    </thead>
+    <tbody id="tabela-clientes">
+      <!-- Os resultados serão inseridos aqui via JavaScript -->
+    </tbody>
+  </table>
+
+  <script>
+    // Carregar dados da consulta PHP e exibi-los na tabela
+    fetch('consulta.php')
+      .then(response => response.json())
+      .then(data => {
+        const tabelaClientes = document.getElementById('tabela-clientes');
+
+        data.forEach(cliente => {
+          const row = tabelaClientes.insertRow();
+          row.insertCell(0).textContent = cliente.nome;
+          row.insertCell(1).textContent = cliente.email;
+          row.insertCell(2).textContent = cliente.telefone;
+          row.insertCell(3).textContent = cliente.endereço;
+        });
+      });
+  </script>
+</body>
+</html>

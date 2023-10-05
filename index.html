@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Inclua o Leaflet CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./mechanic.png">
+    <title>Oficina Mecânica - Página Inicial</title>
+  </head>
+  <body>
+    <header>
+      <h1>Oficina Mecânica</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Página Inicial</a></li>
+          <li><a href="./Ordem_Serviço.html">Ordens de Serviço</a></li>
+          <li><a href="./Clientes.html">Clientes</a></li>
+          <li><a href="./relatórios.php">Relatórios</a></li>
+        </ul>
+      </nav>
+      <a
+        href="https://api.whatsapp.com/send?phone="
+        title="Fale Conosco"
+        class="btn-whatsapp animated delay tada"
+      ></a>
+    </header>
+
+    <main>
+      <!-- Seção de Apresentação do Negócio -->
+      <section class="business-presentation">
+        <h2>Conheça a Nossa Oficina Mecânica</h2>
+        <p>
+          Bem-vindo à nossa oficina mecânica de confiança, onde cuidamos do seu
+          veículo com profissionalismo e qualidade.
+        </p>
+        <p>
+          Nossos serviços incluem diagnóstico, manutenção e reparo de veículos
+          de todas as marcas e modelos. Trabalhamos com uma equipe experiente de
+          mecânicos certificados e utilizamos tecnologia de ponta para garantir
+          que seu veículo seja mantido em ótimas condições.
+        </p>
+        <p>
+          Estamos comprometidos em fornecer um excelente atendimento ao cliente
+          e garantir que seu veículo esteja seguro e funcionando perfeitamente.
+        </p>
+      </section>
+    </main>
+    <div id="mapa" style="height: 400px"></div>
+
+    <footer>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contato</h3>
+          <p>Endereço: Rua da Oficina, 123</p>
+          <p>Telefone: (123) 456-7890</p>
+          <p>Email: contato@oficinamecanica.com</p>
+        </div>
+        <div class="quick-links">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="./index.html">Página Inicial</a></li>
+            <li><a href="./Ordem_Serviço.html">Ordens de Serviço</a></li>
+            <li><a href="./Clientes.html">Clientes</a></li>
+            <li><a href="./relatórios.php">Relatórios</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 Oficina Mecânica. Todos os direitos reservados.</p>
+      </div>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+      <script src="geolocalizacao.js"></script>
+    </footer>
+  </body>
+</html>
